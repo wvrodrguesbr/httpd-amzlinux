@@ -1,0 +1,6 @@
+---
+# handlers file for httpd-amzlinux
+- name: Restart httpd
+  service:
+    name: httpd
+    state:  restarted
